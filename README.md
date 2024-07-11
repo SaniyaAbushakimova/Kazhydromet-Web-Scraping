@@ -13,7 +13,10 @@ Here is an overview of the website that was scraped in this project:
 
 About the database:
 
-The database contains information about meteorological indices such as Temperature, Partial Pressure, Relative humidity, and another 8 indices. The data is divided by regions (there are 17 regions in Kazakhstan), and by corresponding stations in each region (there are 227 of them). And we need to scrape data from 01/01/2000 to 30/04/2023. The approximate number of entries per table was 8,521 which weights aproximately 800 KB each. Below is a database screenshot with comments.
+* The database includes meteorological indices such as Temperature, Partial Pressure, Relative Humidity, and 8 other indices.
+* Data is categorized by regions (17 in total across Kazakhstan) and respective stations within each region (totaling 227 stations).
+* Our goal is to scrape data from 01/01/2000 to 30/04/2023.
+* Each table contains approximately 8,521 entries, each weighing around 800 KB. Below is a screenshot of the database with comments.
 
 ![Guide 2](https://github.com/SaniyaAbushakimova/Kazhydromet-Web-Scraping/assets/81459892/75b869a0-c5a1-4041-96cd-eaf28f23e29f)
 
