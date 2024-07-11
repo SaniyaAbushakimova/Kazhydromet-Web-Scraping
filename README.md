@@ -1,10 +1,12 @@
-# Kazhydromet-Web-Scraping
+## Project description
 
 Kazhydromet serves as the national hydrometeorological agency of the Republic of Kazakhstan, offering comprehensive hydrological data sourced from 227 stations distributed across the country. 
 
 The **Kazhydromet-Web-Scraping** automates the retrieval of data from Kazhydromet's Meteorological Database spanning from 01/01/2000 to 30/04/2023. Manually handling this would be extremely time-consuming because the database contains 3.5 GB of **tabular** data, which is a very large number of tables. This process was automated using `Python` and `Selenium` framework.
 
-Here is an overview of the website that was scraped in this project:
+## Overview of the Kazhydromet Database
+
+About the website:
 
 * The website URL is: https://www.kazhydromet.kz/ru/. By default, the language is set to Russian, but it can be switched to English.
 * Following the guide below, we can access the target database for scraping:
@@ -20,3 +22,10 @@ About the database:
 
 ![Guide 2](https://github.com/SaniyaAbushakimova/Kazhydromet-Web-Scraping/assets/81459892/75b869a0-c5a1-4041-96cd-eaf28f23e29f)
 
+## Other details
+
+* To launch the script:
+````
+python .\download_data.py
+````
+* `kazgydromet_data/темп/возд` -- a sample of the data that was successfully scraped from the Kazhydromet Database.
