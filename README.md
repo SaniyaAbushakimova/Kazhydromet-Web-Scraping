@@ -29,3 +29,4 @@ About the database:
 python .\download_data.py
 ````
 * `kazgydromet_data/темп/возд` -- a sample of the data that was successfully scraped from the Kazhydromet Database.
+* `station_geocode/nominatim.ipynb` -- provides geographic coordinates for each hydrological station run by Kazhydromet.
