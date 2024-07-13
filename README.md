@@ -1,5 +1,5 @@
 Project completed on August 24, 2023.
-
+ 
 ## Project description
 
 Kazhydromet serves as the national hydrometeorological agency of the Republic of Kazakhstan, offering comprehensive hydrological data sourced from 227 stations distributed across the country. 
